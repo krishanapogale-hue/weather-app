@@ -1,6 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './index.css';
+const API_KEY = "a41aed3765cc123a47bc9191d7c0e864";
 function App() {
   return (
     <div className="App">
@@ -16,9 +16,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> 
       </header>
     </div>
+    
   );
 }
 
